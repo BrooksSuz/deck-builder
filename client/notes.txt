@@ -1,0 +1,36 @@
+General Deck Builder UI Notes:
+
+Data to store/display:
+	Name (string)
+	Mana value (string)
+	Type/Subtype (string)
+	Oracle text (string)
+	Power/Toughness/Loyalty Counters (number)
+
+Minimal scrolling
+	Create categories as stacks. The user clicks a category to expand it. They can pin it to the page if they would prefer it to stick around. This allows users to much more easily see the categories they want to delve deeper into and ultimately find the card they're looking for faster.
+	Fit information as tightly as possible on the screen (within reason).
+
+Preserve as much UI space as possible
+	When a user hovers over a card, they see the card. When they hover off, the card disappears.
+	
+The deck should be the FIRST THING THE USER IS ABLE TO SEE. Too many deckbuilders decide that the deck is not what the user should see...even though they're on a DECKBUILDING website and they clicked on a DECKLIST to view.
+
+
+Features:
+
+Buckets
+	User's create buckets (Moxfield tags) that will serve how to sort each card. Defaults will be the card types.
+	
+Show card on hover
+	As minimal as possible (maybe with the option to display the full card picture). The information displayed is: Card Name, Mana Value, Card Type, Card Subtype, and Oracle Text.
+	
+	Since I'm only displaying (a) string(s), maybe there's a sticky element at the bottom of the viewport that displays the card information?
+	
+Display tokens (hide this in a menu somewhere)
+
+Moxfield "considering" tab
+	Cards the user is thinking about, but not sure where they want to put them if they make the cut. Try to make this easy to access if possible.
+	
+Moxfield "recent history" tab
+	Probably hide this one in a menu somewhere too.

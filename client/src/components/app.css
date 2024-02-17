@@ -1,0 +1,16 @@
+* {
+  user-select: none;
+}
+
+.card-search-container {
+  max-width: 350px;
+}
+
+.card-search-results {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.card-search-results > li:hover {
+  background-color: seagreen;
+}

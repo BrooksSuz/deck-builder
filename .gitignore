@@ -1,0 +1,35 @@
+# Node.js / NPM
+node_modules/
+
+# Vite cache
+.vite/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Build files
+/build
+
+# Production dependencies
+/dist
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

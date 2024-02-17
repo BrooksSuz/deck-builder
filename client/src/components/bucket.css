@@ -1,0 +1,22 @@
+.main-container > ul:hover {
+  background-color: seagreen;
+}
+
+.selected {
+  background-color: seagreen;
+}
+.bucket-name {
+  display: inline;
+}
+
+.bucket-name:hover {
+  color: red;
+}
+
+.bucket-item {
+  display: inline;
+}
+
+.bucket-item:hover {
+  color: red;
+}

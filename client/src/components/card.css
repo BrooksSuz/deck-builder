@@ -1,0 +1,12 @@
+.card {
+  margin: 1rem 0;
+}
+
+.card-header:hover {
+  cursor: default;
+  user-select: none;
+}
+
+.card-footer {
+  display: flex;
+}
